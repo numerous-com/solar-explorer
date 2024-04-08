@@ -1,0 +1,14 @@
+DBUS_ENV_FILE=~/dbus-env.sh
+KEYRING_ENV_FILE=~/keyring-env.sh
+
+# start dbus daemon, or just configure existing session for it
+if [[ ! -f $DBUS_ENV_FILE ]]; then
+    dbus-launch --sh-syntax > $DBUS_ENV_FILE
+fi
+eval $(cat $DBUS_ENV_FILE)
+
+# unlock gnome keyring, or just configure existing session for it
+if [[ ! -f $KEYRING_ENV_FILE ]]; then
+    echo "" | gnome-keyring-daemon --unlock > $KEYRING_ENV_FILE
+fi
+export $(cat $KEYRING_ENV_FILE)

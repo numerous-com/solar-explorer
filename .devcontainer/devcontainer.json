@@ -1,0 +1,20 @@
+{
+    "name": "Python 3",
+    "image": "public.ecr.aws/z8x9a5q0/numerous-devcontainer:latest",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.mypy-type-checker"
+            ]
+        }
+    },
+    "portsAttributes": {
+        "7001": {
+            "label": "numerous dev command",
+            "onAutoForward": "notify"
+        }
+    }
+}
