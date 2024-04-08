@@ -23,7 +23,7 @@ The Solar Plant Designer is a tool designed to facilitate the investigation and 
 
 1. Clone the repository
 ```shell
-git clone <repository-url>
+git clone https://github.com/numerous-team/solar-designer.git
 ```
 
 2. Install the required Python libraries:
