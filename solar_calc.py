@@ -12,7 +12,7 @@ locations_files = {f.name.split(".")[0]: f for f in Path('./epw').iterdir() if f
 # Check if the location files dictionary is empty and raise an error if it is
 
 if not locations_files:
-    raise FileNotFoundError("No .epw climate data files found in the "epw" directory. Please download one or more .epw files from https://www.equaonline.com/ice4user/new_index.html and place them in the "epw" directory. Then please retry.")
+    raise FileNotFoundError("No .epw climate data files found in the 'epw' directory. Please download one or more .epw files from https://www.equaonline.com/ice4user/new_index.html and place them in the 'epw' directory. Then please retry.")
 
 def get_location_file(epw_file_path):
     
