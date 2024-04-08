@@ -18,7 +18,7 @@ Feel free to clone the code or visit https://www.numerous.com/app/public/b9bb6d9
 ### Prerequisites
 
 - Python 3.11
-- One or more .epw climate files located in the project directory. Climate files can be downloaded via https://www.equaonline.com/ice4user/new_index.html.
+- One or more .epw climate files located in the epw directory. Climate files can be downloaded via https://www.equaonline.com/ice4user/new_index.html.
 
 ### Installation
 
