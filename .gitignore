@@ -3,6 +3,5 @@
 *.epw
 .zipped_project.zip
 *__pychache__
-epw
 __pycache__/app.cpython-311.pyc
 __pycache__/solar_calc.cpython-311.pyc
