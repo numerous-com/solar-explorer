@@ -1,8 +1,8 @@
-# Solar Designer App
+# Solar Explorer App
 
 ## Description
 
-The Solar Plant Designer is a tool designed to facilitate the investigation and optimization of various solar plant configurations. Utilizing the power of the pvlib library, it enables users to predict the annual energy output based on different system setups, including panel orientation, tilt, and location. This project integrates with marimo for an interactive application experience, allowing for dynamic configuration and visualization of solar energy production.
+The Solar Plant Explorer is a tool designed to facilitate the investigation and optimization of various solar plant configurations. Utilizing the power of pvlib, it enables users to predict the annual energy output based on different system setups, including panel orientation, tilt, and location. This project integrates with Marimo for an interactive application experience, allowing for dynamic configuration and visualization of solar energy production.
 
 
 ## Features
@@ -10,7 +10,7 @@ The Solar Plant Designer is a tool designed to facilitate the investigation and 
 - Load and process weather data from EPW files to simulate climate conditions.
 - Calculate solar output considering specific plant configurations, including tilt, azimuth, and number of modules.
 - Visualize monthly energy production and identify best and worst production days with detailed hour-by-hour analysis.
-- Interactive web application powered by marimo for an enhanced user experience.
+- Interactive web application powered by Marimo for an enhanced user experience.
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ The Solar Plant Designer is a tool designed to facilitate the investigation and 
 
 ### Installation
 
-1. Clone the repository
+1. Clone the repository:
 ```shell
 git clone https://github.com/numerous-team/solar-designer.git
 ```
@@ -31,7 +31,7 @@ git clone https://github.com/numerous-team/solar-designer.git
 pip install -r requirements.txt
 ```
 
-3. Run the app in development mode
+3. Run the app in development mode:
 ```shell
 marimo edit app.py
 ```
