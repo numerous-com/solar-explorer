@@ -4,7 +4,7 @@
 
 The Solar Plant Explorer is a tool designed to facilitate the investigation and optimization of various solar plant configurations. Utilizing the power of pvlib, it enables users to predict the annual energy output based on different system setups, including panel orientation, tilt, and location. This project integrates with Marimo for an interactive application experience, allowing for dynamic configuration and visualization of solar energy production.
 
-Feel free to clone the code or visit https://www.numerous.com/app/public/b9bb6d9ab9414297a4603355fb020f4e to use the directly from Numerous Public gallery.
+Feel free to clone the code or visit https://www.numerous.com/app/public/b9bb6d9ab9414297a4603355fb020f4e to use the app directly from Numerous Public gallery.
 
 ## Features
 
