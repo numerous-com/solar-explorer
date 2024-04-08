@@ -1,0 +1,4 @@
+pvlib==0.10.4
+pandas==2.2.1
+plotly==5.20.0
+marimo==0.3.10

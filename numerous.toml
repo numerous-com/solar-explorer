@@ -1,0 +1,9 @@
+name = "Solar Plant Designer"
+description = "Investigate different plant configurations and see how much energy they will produce pr. year."
+library = "marimo"
+python = "3.11"
+app_file = "app.py"
+requirements_file = "requirements.txt"
+port = 8000
+cover_image = "app_cover.jpg"
+exclude = ["*venv", "venv*", ".git"]
